@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #590209;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #590209;
+   
+
+}
+header #imagem{
+    max-width: 70px;
+    display: flex;
+    align-items: center;
+    
+}
+header #imagem img{
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+   
+}
+header #imagem h2{
+    font-size: 2rem;
+    color:#000;
+  
+   
+}
+header #imagem h2:hover{
+    color: #CA5969;
+    transition: ease-in-out 0.5s;
+}
+header #imagem span{
+    color: #CA5969;
+}
+header #imagem span:hover{
+    color:#000;
+    transition: ease-in-out 0.5s;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+
+}
+header nav ul li{
+    padding: 10px;
+    margin: 1rem;
+
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+header nav ul li a:hover{
+    color: #d4283cd3;
+    transition: .5s ease-in-out;
+   
+}
+header nav ul li #cad{
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px;
+   
+}   
+header nav ul li #cad:hover{
+    background-color: #9B1B2A;
+    color: #000;
+    transition: .5s ease-in-out;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80vh;
+    padding: 10px;
+    background-color: #fdfdfd;
+    float: left;
+}
+
+section h2{
+    margin-top: 4rem;
+    font-size: 56px;
+    margin-left: 18px;
+    text-transform: uppercase;
+    line-height: 1px;
+
+}
+section span{
+   font-size: 56px;
+}
+section h2:nth-child(1){
+    color: #9B1B2A;
+    
+}
+
+
+#description{
+    padding: 15px;
+    margin-top: 32px;
+    max-width: 350px;
+    
+}
+#description p{
+    text-align: center;
+    margin-left: 40px;
+    font-size: 22px;
+    color: #590209;
+    margin-top: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-top: 4.5rem;
+    margin-left: 2.5rem;
+}
+input{
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #CA5969;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+input::placeholder{
+    color: #fff;
+    font-size: 15px;
+    font-style: italic;
+}
+#btn{
+    font-style: italic;
+    background-color: #590209;;
+}
+#btn:hover{
+    background-color: #CA5969;
+    cursor: pointer;
+    transition: ease-in-out .6s;
+    transform: scale(1);
+    font-size: 20px;
+}
+
+aside #img-main{
+    margin-left: 770px;
+    max-width: 100%;
+    height: 80vh;
+    opacity: 0.6;
+    background-image: url(imagem/Dead-img.png);
+    background-size: cover;
+    transform: scaleX(-1);
+}
+
+aside #img-main p{
+    transform: scaleX(-1);
+    text-align: center;
+    margin-right: 15px;
+    max-width: 450px;
+    font-size: 1.7rem;
+    font-style: italic;
+    opacity: .5;
+    color: #fff;
+   
+}
+
+/*
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 14vh;
+    background-color: #590209;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+footer h4{
+    color: #fff;
+    font-size: 2rem;
+    font-style: italic;
+    text-shadow: 8px 8px 8px #000;
+
+}
+*/
